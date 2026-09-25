@@ -21,12 +21,9 @@ Análise de **7 anos de dados abertos da Anatel** · **194 municípios** · **ma
 
 <br>
 
-<!-- Adicionar quando estiverem prontos:
-<img src="img/demo.gif" alt="Demonstração do dashboard" width="90%">
-🎥 [Vídeo de 3 minutos explicando os achados](LINK_DO_VIDEO) · 📄 [Dashboard em PDF](dashboard/dashboard_banda_larga_ro_mt.pdf)
--->
+<img src="img/pagina1_visao_geral.png" alt="Dashboard: visão geral" width="95%">
 
-**[📊 Baixar o dashboard (.pbix)](dashboard/banda_larga_ro_mt.pbix)** &nbsp;·&nbsp; **[📘 Como foi construído](docs/roteiro_dashboard.md)** &nbsp;·&nbsp; **[🐍 Scripts](scripts/)**
+**[📊 Baixar o dashboard (.pbix)](dashboard/banda_larga_ro_mt.pbix)** &nbsp;·&nbsp; **[📄 Ver em PDF](dashboard/dashboard_banda_larga_ro_mt.pdf)** &nbsp;·&nbsp; **[📘 Como foi construído](docs/roteiro_dashboard.md)** &nbsp;·&nbsp; **[🐍 Scripts](scripts/)**
 
 </div>
 
@@ -105,6 +102,26 @@ O maior "provedor regional" já é um grupo consolidador: a **Brasil TecPar**, c
 
 Todas as páginas têm filtro por estado, e o título de cada uma é a conclusão, não o nome do gráfico.
 
+### 📸 Telas do dashboard
+
+<details open>
+<summary><b>Visão geral</b></summary>
+<br>
+<img src="img/pagina1_visao_geral.png" alt="Página Visão geral" width="100%">
+</details>
+
+<details open>
+<summary><b>Municípios</b></summary>
+<br>
+<img src="img/pagina2_municipios.png" alt="Página Municípios" width="100%">
+</details>
+
+<details open>
+<summary><b>Oportunidades</b></summary>
+<br>
+<img src="img/pagina3_oportunidades.png" alt="Página Oportunidades" width="100%">
+</details>
+
 ---
 
 ## ⚙️ Como foi feito
@@ -177,9 +194,9 @@ Depois abra `dashboard/banda_larga_ro_mt.pbix` (ou o projeto `.pbip`), ajuste o 
  ┃ ┣ 📂 raw          → base original da Anatel (não versionada) + coordenadas dos municípios
  ┃ ┗ 📂 processed    → tabelas prontas para o Power BI
  ┣ 📂 scripts        → tratamento e análise em Python
- ┣ 📂 dashboard      → .pbix, projeto .pbip (TMDL/PBIR) e tema
+ ┣ 📂 dashboard      → .pbix, PDF, projeto .pbip (TMDL/PBIR) e tema
  ┣ 📂 docs           → como o dashboard foi construído
- ┗ 📂 img            → prints e GIF
+ ┗ 📂 img            → prints das páginas do dashboard
 ```
 
 ---
