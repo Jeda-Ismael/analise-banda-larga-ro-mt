@@ -32,7 +32,7 @@ Análise de **7 anos de dados abertos da Anatel** · **194 municípios** · **ma
 
 ---
 
-## 🎯 Resumo em 10 segundos
+## 🎯 Resumo
 
 > [!IMPORTANT]
 > Em **dezembro de 2019**, as grandes operadoras (Oi, Claro, Vivo) tinham **64%** dos acessos de banda larga fixa em Rondônia e Mato Grosso.
@@ -194,7 +194,7 @@ Depois abra `dashboard/banda_larga_ro_mt.pbix` (ou o projeto `.pbip`), ajuste o 
 <div align="center">
 
 ### 👤 Jedaías Ismael da Costa
-**Analista de dados** · Aberto a projetos freelance de análise de dados e dashboards em Power BI
+**Analista de Dados**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Jeda--Ismael-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jeda-Ismael)
 
