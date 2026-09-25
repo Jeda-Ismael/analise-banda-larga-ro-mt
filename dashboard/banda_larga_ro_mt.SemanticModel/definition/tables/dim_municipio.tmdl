@@ -1,0 +1,68 @@
+table dim_municipio
+	lineageTag: c09fcd74-4e72-490d-8b88-7469a585c1e2
+
+	column cod_ibge
+		dataType: string
+		lineageTag: 5249a2d5-d105-4daa-aa08-a3753452de40
+		summarizeBy: none
+		sourceColumn: cod_ibge
+
+		annotation SummarizationSetBy = Automatic
+
+	column municipio
+		dataType: string
+		lineageTag: d855f1d1-d81a-4c2a-a660-168608f16134
+		dataCategory: City
+		summarizeBy: none
+		sourceColumn: municipio
+
+		annotation SummarizationSetBy = Automatic
+
+	column uf
+		dataType: string
+		lineageTag: 3705add8-de6f-4e00-bef7-e10dbf2d0048
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: uf
+
+		annotation SummarizationSetBy = Automatic
+
+	column local_mapa
+		dataType: string
+		lineageTag: 2094a30e-59e0-4edf-afdb-b51f94ce84ee
+		dataCategory: Place
+		summarizeBy: none
+		sourceColumn: local_mapa
+
+		annotation SummarizationSetBy = Automatic
+
+	column latitude
+		dataType: double
+		lineageTag: d6d2c851-7cbc-4a7a-8e17-27a45a9fcbec
+		dataCategory: Latitude
+		summarizeBy: none
+		sourceColumn: latitude
+
+		annotation SummarizationSetBy = Automatic
+
+	column longitude
+		dataType: double
+		lineageTag: 2d7cfb81-ae9f-4072-845d-438a9fe9b380
+		dataCategory: Longitude
+		summarizeBy: none
+		sourceColumn: longitude
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_municipio = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaDados & "dim_municipio.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cabecalho = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cabecalho, {{"cod_ibge", type text}, {"municipio", type text}, {"uf", type text}, {"local_mapa", type text}, {"latitude", type number}, {"longitude", type number}}, "pt-BR")
+				in
+				    Tipos
+
+	annotation PBI_ResultType = Table
+

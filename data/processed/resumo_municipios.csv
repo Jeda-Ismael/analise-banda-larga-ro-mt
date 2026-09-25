@@ -1,0 +1,195 @@
+﻿cod_ibge;municipio;uf;local_mapa;latitude;longitude;acessos;share_regional;share_grande;delta_regional_pp;lider;share_lider;n_prestadoras;dens_100hab
+5100102;Acorizal;MT;Acorizal, MT, Brasil;-15,194;-56,3632;968,0;77,4;1,7;77,0;Infiniti Telecom;47,5;14;19,7
+5100250;Alta Floresta;MT;Alta Floresta, MT, Brasil;-9,86674;-56,0867;13100,0;92,5;1,1;25,8;Brasil TecPar;72,3;19;20,8
+5100300;Alto Araguaia;MT;Alto Araguaia, MT, Brasil;-17,3153;-53,2181;1160,0;56,2;5,5;56,1;Brasil TecPar;55,0;12;6,5
+5100359;Alto Boa Vista;MT;Alto Boa Vista, MT, Brasil;-11,6732;-51,3883;788,0;77,9;2,2;77,9;Ativa Connect;38,5;9;13,2
+5100409;Alto Garças;MT;Alto Garças, MT, Brasil;-16,9462;-53,5272;1992,0;85,7;2,0;85,5;Brasil TecPar;76,5;12;14,0
+5100508;Alto Paraguai;MT;Alto Paraguai, MT, Brasil;-14,5137;-56,4776;522,0;52,5;2,3;48,5;Brasil TecPar;38,5;10;7,1
+5100607;Alto Taquari;MT;Alto Taquari, MT, Brasil;-17,8241;-53,2792;254,0;8,3;12,6;-5,9;Starlink;74,8;12;2,1
+5100805;Apiacás;MT;Apiacás, MT, Brasil;-9,53981;-57,4587;1167,0;48,1;1,4;48,1;Starlink;49,7;10;13,4
+5101001;Araguaiana;MT;Araguaiana, MT, Brasil;-15,7291;-51,8341;796,0;72,7;2,1;72,7;Infobarra;56,3;7;19,6
+5101209;Araguainha;MT;Araguainha, MT, Brasil;-16,857;-53,0318;212,0;69,3;2,8;69,3;Hi-Teach Informatica;64,2;7;21,4
+5101258;Araputanga;MT;Araputanga, MT, Brasil;-15,4641;-58,3425;2639,0;95,1;1,6;88,4;Navegaweb;65,2;13;17,9
+5101308;Arenápolis;MT;Arenápolis, MT, Brasil;-14,4472;-56,8437;2597,0;94,1;1,1;80,8;Brasil TecPar;67,1;10;24,1
+5101407;Aripuanã;MT;Aripuanã, MT, Brasil;-10,1723;-59,4568;5091,0;80,0;0,8;-10,1;Webnet;53,8;14;18,8
+5101704;Barra do Bugres;MT;Barra do Bugres, MT, Brasil;-15,0702;-57,1878;9386,0;76,8;0,6;51,6;Rv - Net;55,1;18;32,1
+5101803;Barra do Garças;MT;Barra do Garças, MT, Brasil;-15,8804;-52,264;17457,0;86,6;9,9;22,3;Brasil TecPar;45,1;24;23,1
+5101605;Barão de Melgaço;MT;Barão de Melgaço, MT, Brasil;-16,2067;-55,9623;506,0;6,3;2,8;-48,2;Starlink;78,3;8;7,2
+5101837;Boa Esperança do Norte;MT;Boa Esperança do Norte, MT, Brasil;-13,5067;-55,1486;622,0;100,0;0,0;100,0;Lci Telecom;94,1;4;10,4
+5101852;Bom Jesus do Araguaia;MT;Bom Jesus do Araguaia, MT, Brasil;-12,1706;-51,5032;1001,0;60,1;2,0;59,6;Starlink;36,2;12;12,4
+5101902;Brasnorte;MT;Brasnorte, MT, Brasil;-12,1474;-57,9833;3125,0;71,8;1,6;71,8;Brasil TecPar;64,5;12;17,6
+5102603;Campinápolis;MT;Campinápolis, MT, Brasil;-14,5162;-52,893;1221,0;53,6;2,0;10,7;Starlink;40,9;15;7,7
+5102637;Campo Novo do Parecis;MT;Campo Novo do Parecis, MT, Brasil;-13,6587;-57,8907;12128,0;93,2;0,7;65,0;Brasil TecPar;48,5;18;22,7
+5102678;Campo Verde;MT;Campo Verde, MT, Brasil;-15,545;-55,1626;13253,0;78,3;12,2;32,1;Brasil TecPar;64,4;14;25,5
+5102686;Campos de Júlio;MT;Campos de Júlio, MT, Brasil;-13,7242;-59,2858;2640,0;87,2;0,9;81,4;Agile Telecom;46,1;16;25,7
+5102694;Canabrava do Norte;MT;Canabrava do Norte, MT, Brasil;-11,0556;-51,8209;1005,0;73,3;1,7;73,3;Norte.Net Telecom;44,0;10;22,7
+5102702;Canarana;MT;Canarana, MT, Brasil;-13,5515;-52,2705;8772,0;89,5;0,6;29,5;Azat Internet;81,0;19;30,3
+5102793;Carlinda;MT;Carlinda, MT, Brasil;-9,94912;-55,8417;1786,0;88,2;1,0;88,2;Brasil TecPar;56,8;8;17,5
+5102850;Castanheira;MT;Castanheira, MT, Brasil;-11,1251;-58,6081;581,0;71,6;3,3;71,6;Brasil TecPar;69,7;9;7,9
+5103007;Chapada dos Guimarães;MT;Chapada dos Guimarães, MT, Brasil;-15,4643;-55,7499;7362,0;70,2;0,8;23,2;Brasil TecPar;57,6;11;37,7
+5103056;Cláudia;MT;Cláudia, MT, Brasil;-11,5075;-54,8835;3472,0;78,2;0,9;78,0;Brasil TecPar;48,4;10;37,9
+5103106;Cocalinho;MT;Cocalinho, MT, Brasil;-14,3903;-51,0001;2472,0;72,0;2,6;-2,1;Ab Net Telecom;63,8;10;37,7
+5103254;Colniza;MT;Colniza, MT, Brasil;-9,46121;-59,2252;4574,0;84,3;0,7;48,9;Guaribanet;36,7;15;17,6
+5103205;Colíder;MT;Colíder, MT, Brasil;-10,8135;-55,461;9566,0;93,6;1,0;13,1;Net Facil Telecom;43,1;16;29,8
+5103304;Comodoro;MT;Comodoro, MT, Brasil;-13,6614;-59,7848;2474,0;56,5;1,9;56,5;Starlink;40,3;16;13,4
+5103353;Confresa;MT;Confresa, MT, Brasil;-10,6437;-51,5699;7028,0;87,5;0,8;10,3;Norte.Net Telecom;55,7;22;17,8
+5103361;Conquista D'Oeste;MT;Conquista D'Oeste, MT, Brasil;-14,5381;-59,5444;677,0;74,4;2,2;62,9;Web Lacerda;34,1;10;17,2
+5103379;Cotriguaçu;MT;Cotriguaçu, MT, Brasil;-9,85656;-58,4192;2083,0;87,8;1,6;87,8;Startnet Provedor;65,4;9;21,6
+5103403;Cuiabá;MT;Cuiabá, MT, Brasil;-15,601;-56,0974;245080,0;43,5;54,8;28,4;Claro;27,7;101;35,1
+5103437;Curvelândia;MT;Curvelândia, MT, Brasil;-15,6084;-57,9133;85,0;67,1;7,1;67,1;Neonet;65,9;6;1,7
+5102504;Cáceres;MT;Cáceres, MT, Brasil;-16,0764;-57,6818;17841,0;65,7;27,6;32,8;Seeg Fibras;51,8;25;19,4
+5103452;Denise;MT;Denise, MT, Brasil;-14,7324;-57,0583;925,0;79,8;1,4;72,2;Rv - Net;79,4;9;14,2
+5103502;Diamantino;MT;Diamantino, MT, Brasil;-14,4037;-56,4366;6702,0;86,2;1,2;77,1;Brasil TecPar;60,5;23;29,4
+5103601;Dom Aquino;MT;Dom Aquino, MT, Brasil;-15,8099;-54,9223;1390,0;73,5;1,7;42,7;Brasil TecPar;62,3;10;17,7
+5103700;Feliz Natal;MT;Feliz Natal, MT, Brasil;-12,385;-54,9227;2925,0;75,5;0,9;53,6;Brasil TecPar;54,5;10;27,9
+5103809;Figueirópolis D'Oeste;MT;Figueirópolis D'Oeste, MT, Brasil;-15,4439;-58,7391;91,0;33,0;15,4;13,1;Starlink;47,3;7;3,0
+5103858;Gaúcha do Norte;MT;Gaúcha do Norte, MT, Brasil;-13,2443;-53,0809;2792,0;71,5;0,3;-22,9;Evolve Internet;71,0;10;29,0
+5103908;General Carneiro;MT;General Carneiro, MT, Brasil;-15,7094;-52,7574;145,0;0,0;6,9;-5,2;Starlink;74,5;6;2,4
+5103957;Glória D'Oeste;MT;Glória D'Oeste, MT, Brasil;-15,768;-58,3108;964,0;95,0;0,6;48,7;Vsp 4 Marcos;62,1;6;33,7
+5104104;Guarantã do Norte;MT;Guarantã do Norte, MT, Brasil;-9,96218;-54,9121;6949,0;88,9;1,0;47,2;Brasil TecPar;59,8;19;22,4
+5104203;Guiratinga;MT;Guiratinga, MT, Brasil;-16,346;-53,7575;1698,0;78,2;1,1;77,5;Brasil TecPar;77,0;10;17,0
+5104500;Indiavaí;MT;Indiavaí, MT, Brasil;-15,4921;-58,5802;41,0;9,8;39,0;-36,9;Starlink;41,5;7;1,9
+5104526;Ipiranga do Norte;MT;Ipiranga do Norte, MT, Brasil;-12,2408;-56,1531;1311,0;68,6;0,7;21,8;Lci Telecom;51,6;12;14,7
+5104542;Itanhangá;MT;Itanhangá, MT, Brasil;-12,2259;-56,6463;853,0;57,6;1,9;-8,8;Starlink;39,6;9;10,1
+5104559;Itaúba;MT;Itaúba, MT, Brasil;-11,0614;-55,2766;2059,0;84,9;1,1;40,0;Gb Online;47,2;14;39,3
+5104609;Itiquira;MT;Itiquira, MT, Brasil;-17,2147;-54,1422;2620,0;63,9;1,5;13,7;Brasil TecPar;53,2;12;20,7
+5104807;Jaciara;MT;Jaciara, MT, Brasil;-15,9548;-54,9733;8127,0;93,3;0,9;39,2;Brasil TecPar;57,6;14;27,0
+5104906;Jangada;MT;Jangada, MT, Brasil;-15,235;-56,4917;874,0;68,5;2,1;67,8;Rv - Net;68,2;10;11,8
+5105002;Jauru;MT;Jauru, MT, Brasil;-15,3342;-58,8723;716,0;83,7;6,0;35,9;Netsys Informatica;45,8;12;9,5
+5105101;Juara;MT;Juara, MT, Brasil;-11,2639;-57,5244;6664,0;76,6;1,1;25,8;Brasil TecPar;43,4;16;18,4
+5105176;Juruena;MT;Juruena, MT, Brasil;-10,3178;-58,3592;1623,0;85,1;2,0;42,9;Webnet;85,0;7;16,3
+5105200;Juscimeira;MT;Juscimeira, MT, Brasil;-16,0633;-54,8859;2890,0;83,8;1,3;15,3;Brasil TecPar;40,1;11;24,6
+5105150;Juína;MT;Juína, MT, Brasil;-11,3728;-58,7483;5385,0;64,5;23,6;50,3;Brasil TecPar;29,6;17;11,0
+5105234;Lambari D'Oeste;MT;Lambari D'Oeste, MT, Brasil;-15,3188;-58,0046;669,0;80,9;1,6;45,7;Hard Tech Informatica;53,1;8;14,5
+5105259;Lucas do Rio Verde;MT;Lucas do Rio Verde, MT, Brasil;-13,0588;-55,9042;21230,0;66,6;27,3;-5,4;Brasil TecPar;46,9;22;21,4
+5105309;Luciara;MT;Luciara, MT, Brasil;-11,2219;-50,6676;240,0;0,0;5,0;0,0;Starlink;91,2;4;9,1
+5105580;Marcelândia;MT;Marcelândia, MT, Brasil;-11,0463;-54,4377;490,0;12,7;6,3;-34,8;Starlink;77,8;12;4,3
+5105606;Matupá;MT;Matupá, MT, Brasil;-10,1821;-54,9467;4122,0;84,9;1,0;44,4;Brasil TecPar;64,0;19;18,3
+5105622;Mirassol d'Oeste;MT;Mirassol d'Oeste, MT, Brasil;-15,6759;-58,0951;3626,0;95,5;1,7;93,1;Vsp 4 Marcos;66,7;14;13,1
+5105903;Nobres;MT;Nobres, MT, Brasil;-14,7192;-56,3284;3410,0;83,6;1,1;40,8;Asces-Net;57,7;11;21,5
+5106000;Nortelândia;MT;Nortelândia, MT, Brasil;-14,454;-56,7945;1233,0;89,5;1,7;88,5;Brasil TecPar;66,1;10;21,1
+5106109;Nossa Senhora do Livramento;MT;Nossa Senhora do Livramento, MT, Brasil;-15,772;-56,3432;2303,0;33,9;0,5;24,2;Starlink;54,3;10;19,8
+5106158;Nova Bandeirantes;MT;Nova Bandeirantes, MT, Brasil;-9,84977;-57,8139;3641,0;83,4;0,8;57,9;Innova Informatica;59,2;12;25,1
+5106208;Nova Brasilândia;MT;Nova Brasilândia, MT, Brasil;-14,9612;-54,9685;825,0;47,3;2,3;47,3;Starlink;45,9;9;22,1
+5106216;Nova Canaã do Norte;MT;Nova Canaã do Norte, MT, Brasil;-10,558;-55,953;3437,0;74,5;0,8;74,5;Gb Online;50,9;10;29,4
+5108808;Nova Guarita;MT;Nova Guarita, MT, Brasil;-10,312;-55,4061;1619,0;89,6;0,6;22,0;Brasil TecPar;89,6;4;35,9
+5106182;Nova Lacerda;MT;Nova Lacerda, MT, Brasil;-14,4727;-59,6001;1250,0;70,6;1,2;65,8;Starlink;27,3;13;17,4
+5108857;Nova Marilândia;MT;Nova Marilândia, MT, Brasil;-14,3568;-56,9696;754,0;81,3;0,9;73,3;Brasil TecPar;53,3;9;19,9
+5108907;Nova Maringá;MT;Nova Maringá, MT, Brasil;-13,0136;-57,0908;829,0;39,4;1,1;-50,6;Starlink;55,6;9;14,7
+5108956;Nova Monte Verde;MT;Nova Monte Verde, MT, Brasil;-9,99998;-57,5261;1612,0;83,2;1,7;55,6;Innova Informatica;50,9;14;19,0
+5106224;Nova Mutum;MT;Nova Mutum, MT, Brasil;-13,8374;-56,0743;20573,0;65,4;27,5;1,2;Brasil TecPar;40,7;31;31,3
+5106174;Nova Nazaré;MT;Nova Nazaré, MT, Brasil;-13,9486;-51,8002;885,0;68,1;0,6;51,5;Ab Net Telecom;66,8;9;18,9
+5106232;Nova Olímpia;MT;Nova Olímpia, MT, Brasil;-14,7889;-57,2886;5806,0;95,6;0,6;91,0;Nave Net;53,3;11;36,1
+5106190;Nova Santa Helena;MT;Nova Santa Helena, MT, Brasil;-10,8651;-55,1872;1330,0;82,9;0,8;13,1;Gb Online;53,1;8;29,1
+5106240;Nova Ubiratã;MT;Nova Ubiratã, MT, Brasil;-12,9834;-55,2556;2392,0;52,7;0,9;24,0;Lci Telecom;43,6;17;24,1
+5106257;Nova Xavantina;MT;Nova Xavantina, MT, Brasil;-14,6771;-52,3502;1669,0;70,9;3,2;22,2;Intervia Solucoes;69,9;14;6,3
+5106273;Novo Horizonte do Norte;MT;Novo Horizonte do Norte, MT, Brasil;-11,4089;-57,3488;259,0;57,9;4,2;43,9;Starlink;36,3;10;8,0
+5106265;Novo Mundo;MT;Novo Mundo, MT, Brasil;-9,95616;-55,2029;877,0;46,2;1,3;-19,2;Starlink;51,5;11;13,9
+5106315;Novo Santo Antônio;MT;Novo Santo Antônio, MT, Brasil;-12,2875;-50,9686;244,0;4,1;4,1;2,6;Starlink;90,6;5;12,0
+5106281;Novo São Joaquim;MT;Novo São Joaquim, MT, Brasil;-14,9054;-53,0194;349,0;37,0;5,4;20,8;Starlink;45,8;12;4,8
+5106307;Paranatinga;MT;Paranatinga, MT, Brasil;-14,4265;-54,0524;5384,0;80,1;0,7;18,7;Virtual Connect - Internet Banda Larga;55,3;16;18,2
+5106299;Paranaíta;MT;Paranaíta, MT, Brasil;-9,65835;-56,4786;1936,0;80,5;2,1;38,6;Brasil TecPar;48,2;13;15,9
+5106372;Pedra Preta;MT;Pedra Preta, MT, Brasil;-16,6245;-54,4722;2606,0;81,0;1,6;59,0;Brasil TecPar;44,1;11;13,6
+5106422;Peixoto de Azevedo;MT;Peixoto de Azevedo, MT, Brasil;-10,2262;-54,9794;7238,0;86,7;0,8;39,2;Brasil TecPar;54,4;15;21,4
+5106455;Planalto da Serra;MT;Planalto da Serra, MT, Brasil;-14,6518;-54,7819;724,0;67,3;1,9;39,6;Brasil TecPar;38,3;8;21,5
+5106505;Poconé;MT;Poconé, MT, Brasil;-16,266;-56,6261;5771,0;70,0;1,1;46,3;Brasil TecPar;69,5;12;18,5
+5106653;Pontal do Araguaia;MT;Pontal do Araguaia, MT, Brasil;-15,9274;-52,3273;691,0;83,5;1,6;20,4;Infobarra;59,6;11;9,1
+5106703;Ponte Branca;MT;Ponte Branca, MT, Brasil;-16,7584;-52,8369;398,0;81,9;1,5;6,4;Hi-Teach Informatica;56,8;6;18,8
+5106752;Pontes e Lacerda;MT;Pontes e Lacerda, MT, Brasil;-15,2219;-59,3435;9494,0;77,9;13,0;35,5;Web Lacerda;53,3;21;16,7
+5106778;Porto Alegre do Norte;MT;Porto Alegre do Norte, MT, Brasil;-10,8761;-51,6357;2614,0;88,3;0,9;88,0;Norte.Net Telecom;64,6;14;20,5
+5106828;Porto Esperidião;MT;Porto Esperidião, MT, Brasil;-15,857;-58,4619;1991,0;86,5;2,0;25,6;J S Informatica & Neonet;69,9;12;19,9
+5106851;Porto Estrela;MT;Porto Estrela, MT, Brasil;-15,3235;-57,2204;604,0;71,4;1,2;59,1;Rv - Net;38,9;11;19,5
+5106802;Porto dos Gaúchos;MT;Porto dos Gaúchos, MT, Brasil;-11,533;-57,4132;772,0;36,1;3,2;-28,9;Starlink;57,3;15;13,5
+5107008;Poxoréu;MT;Poxoréu, MT, Brasil;-15,8299;-54,4208;2388,0;79,5;1,4;78,2;Interfibras;49,3;11;9,3
+5107040;Primavera do Leste;MT;Primavera do Leste, MT, Brasil;-15,544;-54,2811;30962,0;76,7;18,8;21,7;Brasil TecPar;59,2;32;31,3
+5107065;Querência;MT;Querência, MT, Brasil;-12,6093;-52,1821;8307,0;85,6;0,5;48,4;Norte.Net Telecom;49,0;18;25,7
+5107156;Reserva do Cabaçal;MT;Reserva do Cabaçal, MT, Brasil;-15,0743;-58,4585;198,0;78,8;6,6;63,5;V. P. Net Informatica;68,2;6;10,0
+5107180;Ribeirão Cascalheira;MT;Ribeirão Cascalheira, MT, Brasil;-12,9367;-51,8244;1060,0;33,6;3,3;33,0;Starlink;61,0;10;10,0
+5107198;Ribeirãozinho;MT;Ribeirãozinho, MT, Brasil;-16,4856;-52,6924;649,0;88,9;1,2;4,1;Hi-Teach Informatica;74,9;8;23,4
+5107206;Rio Branco;MT;Rio Branco, MT, Brasil;-15,2483;-58,1259;759,0;92,1;2,9;62,7;Neonet;64,2;8;17,3
+5107578;Rondolândia;MT;Rondolândia, MT, Brasil;-10,8376;-61,4697;413,0;43,8;2,2;43,8;Starlink;50,8;10;11,8
+5107602;Rondonópolis;MT;Rondonópolis, MT, Brasil;-16,4673;-54,6372;91687,0;52,9;45,4;36,3;Oi;25,7;45;34,2
+5107701;Rosário Oeste;MT;Rosário Oeste, MT, Brasil;-14,8259;-56,4236;2666,0;63,8;1,2;63,7;Asces-Net;45,2;11;18,0
+5107750;Salto do Céu;MT;Salto do Céu, MT, Brasil;-15,1303;-58,1317;492,0;73,0;3,0;71,9;Hard Tech Informatica;50,2;7;13,5
+5107248;Santa Carmem;MT;Santa Carmem, MT, Brasil;-11,9125;-55,2263;2492,0;88,8;0,5;83,5;I R Fibranet;61,2;10;42,2
+5107743;Santa Cruz do Xingu;MT;Santa Cruz do Xingu, MT, Brasil;-10,1532;-52,3953;437,0;58,6;1,8;-12,5;Bottega Telecomunicacoes;43,7;11;14,7
+5107768;Santa Rita do Trivelato;MT;Santa Rita do Trivelato, MT, Brasil;-13,8146;-55,2706;879,0;60,5;1,6;22,6;Mutum Fibra;59,7;10;24,4
+5107776;Santa Terezinha;MT;Santa Terezinha, MT, Brasil;-10,4704;-50,514;395,0;11,6;5,3;-56,6;Starlink;78,7;11;5,1
+5107263;Santo Afonso;MT;Santo Afonso, MT, Brasil;-14,4945;-57,0091;323,0;67,5;1,9;25,8;Brasil TecPar;66,3;7;13,6
+5107800;Santo Antônio de Leverger;MT;Santo Antônio de Leverger, MT, Brasil;-15,8632;-56,0788;1770,0;52,1;1,5;16,6;Starlink;37,9;11;10,5
+5107792;Santo Antônio do Leste;MT;Santo Antônio do Leste, MT, Brasil;-14,805;-53,6075;962,0;81,2;0,5;-16,2;Especialista Telecom E Serviços Em Tecnologia;49,7;10;22,5
+5107875;Sapezal;MT;Sapezal, MT, Brasil;-12,9892;-58,7645;2787,0;65,3;2,3;25,7;Speed Conecte Servicos De Internet Rural;43,5;17;8,3
+5107883;Serra Nova Dourada;MT;Serra Nova Dourada, MT, Brasil;-12,0896;-51,4025;146,0;0,7;6,2;0,7;Starlink;92,5;4;7,4
+5107909;Sinop;MT;Sinop, MT, Brasil;-11,8604;-55,5091;77994,0;72,8;23,8;-3,0;Gb Online;48,2;38;33,7
+5107925;Sorriso;MT;Sorriso, MT, Brasil;-12,5425;-55,7211;39312,0;72,4;21,1;8,4;Lci Telecom;40,9;38;30,5
+5107859;São Félix do Araguaia;MT;São Félix do Araguaia, MT, Brasil;-11,615;-50,6706;1549,0;44,3;2,6;43,6;Starlink;50,0;14;10,4
+5107297;São José do Povo;MT;São José do Povo, MT, Brasil;-16,4549;-54,2487;832,0;90,0;0,4;90,0;G15 Telecom;82,9;9;31,4
+5107305;São José do Rio Claro;MT;São José do Rio Claro, MT, Brasil;-13,4398;-56,7218;4564,0;88,0;0,5;29,6;Brasil TecPar;83,2;13;32,0
+5107354;São José do Xingu;MT;São José do Xingu, MT, Brasil;-10,7982;-52,7486;982,0;47,9;1,7;-8,2;Starlink;47,3;11;15,6
+5107107;São José dos Quatro Marcos;MT;São José dos Quatro Marcos, MT, Brasil;-15,6276;-58,1772;4660,0;98,2;0,7;32,4;Vsp 4 Marcos;73,6;12;26,5
+5107404;São Pedro da Cipa;MT;São Pedro da Cipa, MT, Brasil;-16,0109;-54,9176;441,0;85,7;1,6;80,0;Brasil TecPar;65,3;8;10,4
+5107941;Tabaporã;MT;Tabaporã, MT, Brasil;-11,3007;-56,8312;673,0;5,6;2,8;-91,3;Starlink;85,6;11;6,8
+5107958;Tangará da Serra;MT;Tangará da Serra, MT, Brasil;-14,6229;-57,4933;41882,0;86,8;9,9;43,7;Nave Net;60,1;27;35,9
+5108006;Tapurah;MT;Tapurah, MT, Brasil;-12,695;-56,5178;3342,0;76,2;0,9;9,1;Brasil TecPar;55,6;12;20,9
+5108055;Terra Nova do Norte;MT;Terra Nova do Norte, MT, Brasil;-10,517;-55,231;1800,0;86,3;1,4;43,5;Net Vip Provedor De Internet;52,4;14;17,1
+5108105;Tesouro;MT;Tesouro, MT, Brasil;-16,0809;-53,559;458,0;64,0;3,3;-4,1;Hi-Teach Informatica;59,2;9;15,8
+5108204;Torixoréu;MT;Torixoréu, MT, Brasil;-16,2006;-52,5571;752,0;82,2;1,9;50,7;B C Infonet;59,0;7;17,7
+5108303;União do Sul;MT;União do Sul, MT, Brasil;-11,5308;-54,3616;809,0;66,9;1,9;66,3;Twspeed Telecom Centro Norte;61,3;8;20,7
+5108352;Vale de São Domingos;MT;Vale de São Domingos, MT, Brasil;-15,286;-59,0683;87,0;49,4;8,0;-25,2;Starlink;37,9;9;2,9
+5108501;Vera;MT;Vera, MT, Brasil;-12,3017;-55,3045;3360,0;83,9;1,0;63,4;Brasil TecPar;52,4;15;30,7
+5105507;Vila Bela da Santíssima Trindade;MT;Vila Bela da Santíssima Trindade, MT, Brasil;-15,0068;-59,9504;2935,0;71,6;0,9;15,2;Infotec;70,2;12;16,5
+5108600;Vila Rica;MT;Vila Rica, MT, Brasil;-10,0137;-51,1186;4994,0;87,4;0,9;20,1;Pedro Software Informatica;18,9;18;25,6
+5108402;Várzea Grande;MT;Várzea Grande, MT, Brasil;-15,6458;-56,1322;76653,0;64,3;34,3;47,8;Nave Net;30,0;41;23,7
+5100201;Água Boa;MT;Água Boa, MT, Brasil;-14,051;-52,1601;3879,0;79,5;2,1;33,3;Help Internet;44,2;16;11,8
+1100015;Alta Floresta D'Oeste;RO;Alta Floresta D'Oeste, RO, Brasil;-11,9283;-61,9953;7812,0;96,2;0,3;18,1;Uni Telecom;79,3;21;34,4
+1100379;Alto Alegre dos Parecis;RO;Alto Alegre dos Parecis, RO, Brasil;-12,132;-61,835;3103,0;95,8;0,4;32,2;Uni Telecom;71,2;10;25,4
+1100403;Alto Paraíso;RO;Alto Paraíso, RO, Brasil;-9,71429;-63,3188;3561,0;91,0;0,6;75,4;Worldnet Fibra Optica;48,9;12;20,4
+1100346;Alvorada D'Oeste;RO;Alvorada D'Oeste, RO, Brasil;-11,3463;-62,2847;8913,0;99,3;0,2;15,6;Uni Telecom;87,6;9;65,5
+1100023;Ariquemes;RO;Ariquemes, RO, Brasil;-9,90571;-63,0325;30718,0;74,2;23,5;24,7;Worldnet Fibra Optica;31,5;29;28,0
+1100452;Buritis;RO;Buritis, RO, Brasil;-10,1943;-63,8324;10980,0;97,3;0,4;34,6;Turbo Net;46,2;14;35,9
+1100031;Cabixi;RO;Cabixi, RO, Brasil;-13,4945;-60,552;2697,0;96,7;0,4;35,9;Cpw Internet;64,4;10;47,8
+1100601;Cacaulândia;RO;Cacaulândia, RO, Brasil;-10,349;-62,9043;1699,0;91,8;0,4;91,8;Bulleti-Net;91,2;10;40,0
+1100049;Cacoal;RO;Cacoal, RO, Brasil;-11,4343;-61,4562;31190,0;86,4;12,3;14,1;Speed Travel;31,2;25;31,5
+1100700;Campo Novo de Rondônia;RO;Campo Novo de Rondônia, RO, Brasil;-10,5712;-63,6266;2488,0;94,5;0,6;28,3;Rio Net Provedor;87,2;12;27,7
+1100809;Candeias do Jamari;RO;Candeias do Jamari, RO, Brasil;-8,7907;-63,7005;4133,0;80,0;0,6;66,7;Candeias Net Telecom;50,1;20;16,9
+1100908;Castanheiras;RO;Castanheiras, RO, Brasil;-11,4253;-61,9482;1430,0;97,6;0,3;46,1;Uni Telecom;58,3;10;41,5
+1100056;Cerejeiras;RO;Cerejeiras, RO, Brasil;-13,187;-60,8168;2426,0;92,9;1,1;45,8;Cpw Internet;70,8;14;14,3
+1100924;Chupinguaia;RO;Chupinguaia, RO, Brasil;-12,5611;-60,8877;402,0;30,6;5,0;30,6;Starlink;60,0;9;3,9
+1100064;Colorado do Oeste;RO;Colorado do Oeste, RO, Brasil;-13,1174;-60,5454;5543,0;97,3;0,4;42,1;Cpw Internet;61,0;13;33,7
+1100072;Corumbiara;RO;Corumbiara, RO, Brasil;-12,9551;-60,8947;1910,0;92,3;1,1;52,7;Cpw Internet;88,8;10;24,1
+1100080;Costa Marques;RO;Costa Marques, RO, Brasil;-12,4367;-64,228;2392,0;88,0;0,6;5,4;Rolim Net;55,4;12;17,7
+1100940;Cujubim;RO;Cujubim, RO, Brasil;-9,36065;-62,5846;3395,0;92,1;0,5;38,4;Uni Telecom;39,1;11;21,4
+1100098;Espigão D'Oeste;RO;Espigão D'Oeste, RO, Brasil;-11,5266;-61,0252;4278,0;93,6;0,6;53,8;Comandos Informática;33,4;12;13,0
+1101005;Governador Jorge Teixeira;RO;Governador Jorge Teixeira, RO, Brasil;-10,61;-62,7371;1146,0;90,3;0,8;90,3;Atual Telecom;61,3;12;13,9
+1100106;Guajará-Mirim;RO;Guajará-Mirim, RO, Brasil;-10,7889;-65,3296;9358,0;90,9;0,7;76,2;Rolim Net;44,0;24;21,4
+1101104;Itapuã do Oeste;RO;Itapuã do Oeste, RO, Brasil;-9,19687;-63,1809;1967,0;82,5;0,8;77,7;Brasil Digital Telecom;73,8;9;21,3
+1100114;Jaru;RO;Jaru, RO, Brasil;-10,4318;-62,4788;20103,0;90,0;8,1;58,3;Uni Telecom;68,4;25;36,0
+1100122;Ji-Paraná;RO;Ji-Paraná, RO, Brasil;-10,8777;-61,9322;51874,0;79,5;19,5;20,0;Uni Telecom;62,8;40;36,8
+1100130;Machadinho D'Oeste;RO;Machadinho D'Oeste, RO, Brasil;-9,44363;-61,9818;10940,0;94,0;0,2;29,6;Uni Telecom;78,8;11;32,0
+1101203;Ministro Andreazza;RO;Ministro Andreazza, RO, Brasil;-11,196;-61,5174;2297,0;98,2;0,6;67,1;W F Informatica;82,7;11;36,0
+1101302;Mirante da Serra;RO;Mirante da Serra, RO, Brasil;-11,029;-62,6696;3633,0;99,1;0,4;80,9;Gigacom;30,2;12;37,9
+1101401;Monte Negro;RO;Monte Negro, RO, Brasil;-10,2458;-63,29;2589,0;90,1;0,7;89,4;Rolim Net;61,7;13;21,4
+1100148;Nova Brasilândia D'Oeste;RO;Nova Brasilândia D'Oeste, RO, Brasil;-11,7247;-62,3127;10255,0;99,2;0,2;9,8;Uni Telecom;87,5;11;63,1
+1100338;Nova Mamoré;RO;Nova Mamoré, RO, Brasil;-10,4077;-65,3346;5366,0;92,1;0,5;62,0;Rolim Net;40,6;15;18,6
+1101435;Nova União;RO;Nova União, RO, Brasil;-10,9068;-62,5564;462,0;97,4;1,1;23,7;Jlp Informatica;82,3;6;7,1
+1100502;Novo Horizonte do Oeste;RO;Novo Horizonte do Oeste, RO, Brasil;-11,6961;-61,9951;4779,0;98,8;0,4;14,1;Uni Telecom;74,9;7;60,5
+1100155;Ouro Preto do Oeste;RO;Ouro Preto do Oeste, RO, Brasil;-10,7167;-62,2565;10001,0;95,1;3,3;57,1;Uni Telecom;80,3;15;25,8
+1101450;Parecis;RO;Parecis, RO, Brasil;-12,1754;-61,6032;561,0;88,1;0,9;-4,9;Rolim Net;53,5;10;12,9
+1100189;Pimenta Bueno;RO;Pimenta Bueno, RO, Brasil;-11,672;-61,198;9315,0;92,5;3,1;20,2;Net Way Informatica;51,3;20;23,7
+1101468;Pimenteiras do Oeste;RO;Pimenteiras do Oeste, RO, Brasil;-13,4823;-61,0471;466,0;76,6;1,1;-6,6;Cpw Internet;63,5;10;20,2
+1100205;Porto Velho;RO;Porto Velho, RO, Brasil;-8,76077;-63,8999;164335,0;39,8;57,2;24,6;Oi;38,6;63;31,6
+1100254;Presidente Médici;RO;Presidente Médici, RO, Brasil;-11,169;-61,8986;9965,0;98,9;0,3;48,4;Uni Telecom;84,8;12;48,9
+1101476;Primavera de Rondônia;RO;Primavera de Rondônia, RO, Brasil;-11,8295;-61,3153;897,0;96,7;0,6;79,3;Uni Telecom;58,5;9;27,5
+1100262;Rio Crespo;RO;Rio Crespo, RO, Brasil;-9,69965;-62,9011;482,0;76,6;1,0;76,6;Rios Net Telecom;68,5;9;12,8
+1100288;Rolim de Moura;RO;Rolim de Moura, RO, Brasil;-11,7271;-61,7714;21251,0;94,0;5,0;41,6;Uni Telecom;51,4;22;33,6
+1100296;Santa Luzia D'Oeste;RO;Santa Luzia D'Oeste, RO, Brasil;-11,9074;-61,7777;1111,0;94,2;1,1;38,6;Rolim Net;58,6;9;14,2
+1101500;Seringueiras;RO;Seringueiras, RO, Brasil;-11,8055;-63,0182;5481,0;97,7;0,2;29,9;Uni Telecom;59,3;9;42,2
+1101484;São Felipe D'Oeste;RO;São Felipe D'Oeste, RO, Brasil;-11,9023;-61,5026;2881,0;99,4;0,1;80,0;Uni Telecom;85,7;9;51,7
+1101492;São Francisco do Guaporé;RO;São Francisco do Guaporé, RO, Brasil;-12,052;-63,568;5286,0;94,5;0,3;24,1;Uni Telecom;65,0;13;30,0
+1100320;São Miguel do Guaporé;RO;São Miguel do Guaporé, RO, Brasil;-11,6953;-62,7192;4942,0;96,0;0,4;19,7;Uni Telecom;54,4;11;22,1
+1101559;Teixeirópolis;RO;Teixeirópolis, RO, Brasil;-10,9056;-62,242;1081,0;98,1;0,3;92,6;Uni Telecom;63,3;7;24,0
+1101609;Theobroma;RO;Theobroma, RO, Brasil;-10,2483;-62,3538;1277,0;83,6;1,3;69,6;Uni Telecom;70,0;9;15,2
+1101708;Urupá;RO;Urupá, RO, Brasil;-11,1261;-62,3639;4117,0;99,1;0,3;67,5;Delta-Connex Telecom;56,3;8;36,6
+1101757;Vale do Anari;RO;Vale do Anari, RO, Brasil;-9,86215;-62,1876;2283,0;86,6;0,3;22,1;Uni Telecom;68,1;8;27,9
+1101807;Vale do Paraíso;RO;Vale do Paraíso, RO, Brasil;-10,4465;-62,1352;1396,0;96,0;1,3;43,5;Uni Telecom;52,9;8;20,7
+1100304;Vilhena;RO;Vilhena, RO, Brasil;-12,7502;-60,1488;27206,0;70,0;26,8;26,1;Internet 5.8;33,1;33;24,6

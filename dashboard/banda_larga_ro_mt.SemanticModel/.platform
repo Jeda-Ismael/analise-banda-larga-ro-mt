@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "banda_larga_ro_mt"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "ce624dc7-930e-478d-af1e-b583e6470a2c"
+  }
+}

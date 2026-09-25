@@ -1,0 +1,55 @@
+table dim_prestadora
+	lineageTag: f23968c4-f45f-48f9-8b2c-26d8ac102044
+
+	column cnpj
+		dataType: string
+		lineageTag: a8b933cc-d4cf-4ae2-a876-2ed46d3f6b6e
+		summarizeBy: none
+		sourceColumn: cnpj
+
+		annotation SummarizationSetBy = Automatic
+
+	column empresa
+		dataType: string
+		lineageTag: 42d086d8-2623-4541-8bd2-3ab3abfd9c6e
+		summarizeBy: none
+		sourceColumn: empresa
+
+		annotation SummarizationSetBy = Automatic
+
+	column marca
+		dataType: string
+		lineageTag: 275bf4ec-284f-477a-9cff-de791a927726
+		summarizeBy: none
+		sourceColumn: marca
+
+		annotation SummarizationSetBy = Automatic
+
+	column grupo_economico
+		dataType: string
+		lineageTag: fa52d91e-ac9b-4b6c-9223-4a421e1d2fef
+		summarizeBy: none
+		sourceColumn: grupo_economico
+
+		annotation SummarizationSetBy = Automatic
+
+	column porte_atual
+		dataType: string
+		lineageTag: d42bb575-e888-45d5-8dc5-69b70827327e
+		summarizeBy: none
+		sourceColumn: porte_atual
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_prestadora = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaDados & "dim_prestadora.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cabecalho = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cabecalho, {{"cnpj", type text}, {"empresa", type text}, {"marca", type text}, {"grupo_economico", type text}, {"porte_atual", type text}}, "pt-BR")
+				in
+				    Tipos
+
+	annotation PBI_ResultType = Table
+

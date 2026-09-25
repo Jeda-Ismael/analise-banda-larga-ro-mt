@@ -1,0 +1,156 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "p3_rec",
+  "position": {
+    "x": 1180,
+    "y": 725,
+    "z": 6,
+    "height": 305,
+    "width": 700,
+    "tabOrder": 6
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "O que isso significa para um provedor regional",
+                    "textStyle": {
+                      "fontSize": "13pt",
+                      "fontWeight": "bold",
+                      "color": "#1F2937"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#1F2937"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "1. Fibra onde o satélite lidera: ",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#0F766E",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "a Starlink é líder em 31 municípios pequenos. É demanda comprovada e cliente disposto a pagar.",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#1F2937"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#1F2937"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "2. Cidades-polo: ",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#0F766E",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "Porto Velho, Cuiabá e Rondonópolis são o último mercado grande ainda das operadoras nacionais, mas exigem escala.",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#1F2937"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#1F2937"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "3. Consolidação: ",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#0F766E",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "onde um único grupo passa de 50% do mercado, a próxima disputa é por aquisição, não por instalação.",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#1F2937"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

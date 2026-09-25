@@ -1,0 +1,10 @@
+# Base bruta da Anatel (grande demais para o GitHub; baixar pelo link no README)
+data/raw/*.zip
+data/raw/*.csv
+!data/raw/municipios_coordenadas.csv
+*.pbix.bak
+data/interim/
+
+# Power BI Project (arquivos locais/cache)
+**/.pbi/localSettings.json
+**/.pbi/cache.abf

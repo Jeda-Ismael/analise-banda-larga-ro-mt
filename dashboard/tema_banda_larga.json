@@ -1,0 +1,80 @@
+{
+  "name": "Banda Larga RO-MT",
+  "dataColors": [
+    "#94A3B8",
+    "#0F766E",
+    "#D97706",
+    "#1E3A5F",
+    "#65A30D",
+    "#B91C1C",
+    "#7C3AED",
+    "#0891B2"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1F2937",
+  "tableAccent": "#0F766E",
+  "good": "#0F766E",
+  "neutral": "#94A3B8",
+  "bad": "#B91C1C",
+  "maximum": "#0F766E",
+  "center": "#99F6E4",
+  "minimum": "#F0FDFA",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 13,
+      "color": "#1F2937"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#4B5563"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 26,
+      "color": "#1F2937"
+    }
+  },
+  "visualStyles": {
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#F8FAFC"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#E5E7EB"
+              }
+            },
+            "radius": 8
+          }
+        ]
+      }
+    }
+  }
+}

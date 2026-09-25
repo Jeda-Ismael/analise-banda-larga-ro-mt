@@ -1,0 +1,5 @@
+expression PastaDados = "D:\User\AMS SOFT 2\Desktop\Dados Anatel\data\processed\" meta [IsParameterQuery = true, Type = "Text", IsParameterQueryRequired = true]
+	lineageTag: fd910d27-0c9d-4a9a-9ca8-eede3b97de66
+
+	annotation PBI_ResultType = Text
+

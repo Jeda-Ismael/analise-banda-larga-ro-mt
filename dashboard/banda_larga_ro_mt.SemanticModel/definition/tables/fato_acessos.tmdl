@@ -1,0 +1,173 @@
+table fato_acessos
+	lineageTag: e4fb9355-ce56-4409-a1b0-bc5235ec50c9
+
+	measure Acessos =
+			VAR UltimoMes =
+			    CALCULATE (
+			        MAX ( fato_acessos[data] ),
+			        ALL ( fato_acessos[categoria], fato_acessos[tecnologia] ),
+			        ALL ( dim_municipio ),
+			        ALL ( dim_prestadora )
+			    )
+			RETURN
+			    CALCULATE ( SUM ( fato_acessos[qtd_acessos] ), dCalendario[Date] = UltimoMes )
+		formatString: #,0
+		displayFolder: Base
+		lineageTag: 5c985a22-259f-4444-8018-3dca3e5a2103
+
+	measure 'Share %' = DIVIDE ( [Acessos], CALCULATE ( [Acessos], REMOVEFILTERS ( fato_acessos[categoria] ) ) )
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: Share
+		lineageTag: bf06a38c-915b-42eb-893b-af09ec7f2eee
+
+	measure 'Share Regionais %' = CALCULATE ( [Share %], fato_acessos[categoria] = "Provedor regional" )
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: Share
+		lineageTag: d484fa4c-0a0a-4658-af00-b019e7734df1
+
+	measure 'Share Grandes %' = CALCULATE ( [Share %], fato_acessos[categoria] = "Grande operadora" )
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: Share
+		lineageTag: f7030571-1e7a-4856-9ab7-76837c08ee3e
+
+	measure 'Share Satélite %' = CALCULATE ( [Share %], fato_acessos[categoria] = "Satélite" )
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: Share
+		lineageTag: 9b9b9d91-5a5c-4ae2-ae08-ac0bae0de8c0
+
+	measure 'Share Regionais dez/2019' = CALCULATE ( [Share Regionais %], REMOVEFILTERS ( dCalendario ), dCalendario[Date] = DATE ( 2019, 12, 1 ) )
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: Share
+		lineageTag: 3749b1a2-1a5d-4f86-a8df-22a3765c05a4
+
+	measure 'Ganho Regionais (p.p.)' = ( [Share Regionais %] - [Share Regionais dez/2019] ) * 100
+		formatString: +0.0;-0.0;0.0
+		displayFolder: Share
+		lineageTag: cb500bf7-b84f-42fc-a172-cfa55a6222b4
+
+	measure 'Acessos 12m antes' = CALCULATE ( [Acessos], DATEADD ( dCalendario[Date], -12, MONTH ) )
+		formatString: #,0
+		displayFolder: Base
+		lineageTag: 894730fa-a91e-4ba5-9afe-ed54976b00da
+
+	measure 'Crescimento 12m %' = DIVIDE ( [Acessos] - [Acessos 12m antes], [Acessos 12m antes] )
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: Base
+		lineageTag: 7ef63059-0675-496f-ae96-a3773e32bf23
+
+	measure 'Nº Prestadoras' =
+			VAR UltimoMes =
+			    CALCULATE ( MAX ( fato_acessos[data] ), ALL ( dim_prestadora ), ALL ( fato_acessos[categoria], fato_acessos[tecnologia] ) )
+			RETURN
+			    CALCULATE ( DISTINCTCOUNT ( fato_acessos[cnpj] ), dCalendario[Date] = UltimoMes )
+		formatString: #,0
+		displayFolder: Concorrência
+		lineageTag: bf1c1e73-c752-4b1c-9fc0-9dddcd0b58b8
+
+	measure Líder =
+			VAR t = ADDCOLUMNS ( VALUES ( dim_prestadora[marca] ), "@a", [Acessos] )
+			RETURN
+			    MAXX ( TOPN ( 1, t, [@a], DESC ), dim_prestadora[marca] )
+		displayFolder: Concorrência
+		lineageTag: 7fb973f7-f3a8-48c6-822f-0c9772a0ad73
+
+	measure 'Share do Líder %' =
+			VAR t = ADDCOLUMNS ( VALUES ( dim_prestadora[marca] ), "@a", [Acessos] )
+			RETURN
+			    DIVIDE ( MAXX ( t, [@a] ), [Acessos] )
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: Concorrência
+		lineageTag: 6c58a0f5-8446-4d73-8f29-4dce73272c47
+
+	measure 'Acessos por 100 hab' =
+			VAR UltimoMes =
+			    CALCULATE ( MAX ( fato_densidade[data] ), ALL ( dim_municipio ) )
+			RETURN
+			    CALCULATE ( AVERAGE ( fato_densidade[densidade] ), dCalendario[Date] = UltimoMes )
+		formatString: 0.0
+		displayFolder: Mercado
+		lineageTag: 450f01d7-f3e2-4b38-b850-75b0c9ac1d6c
+
+	measure 'Mês de referência' =
+			VAR UltimoMes =
+			    CALCULATE ( MAX ( fato_acessos[data] ), ALL ( fato_acessos[categoria], fato_acessos[tecnologia] ), ALL ( dim_municipio ), ALL ( dim_prestadora ) )
+			RETURN
+			    "Dados até " & FORMAT ( UltimoMes, "mmm/yyyy" )
+		displayFolder: Base
+		lineageTag: b4efd7a6-704d-41f8-a07f-ab527a08a308
+
+	measure 'Acessos Regionais' = CALCULATE ( [Acessos], fato_acessos[categoria] = "Provedor regional" )
+		formatString: #,0
+		displayFolder: Base
+		lineageTag: a285d13f-af0b-49eb-9c9b-b38dafd48d1d
+
+	measure 'Acessos Satélite' = CALCULATE ( [Acessos], fato_acessos[categoria] = "Satélite" )
+		formatString: #,0
+		displayFolder: Base
+		lineageTag: df2b51a5-b509-4204-aa57-a7cedbab9c31
+
+	column data
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: c2d1fa4a-87b3-4e71-b399-46233a5c81ff
+		summarizeBy: none
+		sourceColumn: data
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column cod_ibge
+		dataType: string
+		lineageTag: 6663c8cc-e1b6-492e-911e-4db987694dcc
+		summarizeBy: none
+		sourceColumn: cod_ibge
+
+		annotation SummarizationSetBy = Automatic
+
+	column cnpj
+		dataType: string
+		lineageTag: a4d7957a-591c-4f65-ae3d-b9b8eca8d472
+		summarizeBy: none
+		sourceColumn: cnpj
+
+		annotation SummarizationSetBy = Automatic
+
+	column categoria
+		dataType: string
+		lineageTag: 10f9bca6-6b8d-4bc3-a8fa-c6367fcbe65c
+		summarizeBy: none
+		sourceColumn: categoria
+
+		annotation SummarizationSetBy = Automatic
+
+	column tecnologia
+		dataType: string
+		lineageTag: d599caad-f1e1-46d6-ae9a-8cf7516037a9
+		summarizeBy: none
+		sourceColumn: tecnologia
+
+		annotation SummarizationSetBy = Automatic
+
+	column qtd_acessos
+		dataType: int64
+		isHidden
+		formatString: #,0
+		lineageTag: 42a33ab9-baae-4a9f-aad6-d600609abb0d
+		summarizeBy: sum
+		sourceColumn: acessos
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fato_acessos = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaDados & "fato_acessos.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cabecalho = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cabecalho, {{"data", type date}, {"cod_ibge", type text}, {"cnpj", type text}, {"categoria", type text}, {"tecnologia", type text}, {"acessos", Int64.Type}}, "pt-BR")
+				in
+				    Tipos
+
+	annotation PBI_ResultType = Table
+

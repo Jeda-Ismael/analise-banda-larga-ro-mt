@@ -1,0 +1,43 @@
+table fato_densidade
+	lineageTag: cffc9544-abac-49b4-a3f7-1c10202a30ad
+
+	column data
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: a3ef0a21-0bad-47d1-b74e-5b3cf33966be
+		summarizeBy: none
+		sourceColumn: data
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column cod_ibge
+		dataType: string
+		lineageTag: 47259588-c3ba-4989-af1a-1e1e2a3dc827
+		summarizeBy: none
+		sourceColumn: cod_ibge
+
+		annotation SummarizationSetBy = Automatic
+
+	column densidade
+		dataType: double
+		formatString: 0.0
+		lineageTag: 50ac7744-8dc0-46b9-a8d9-3abe8b167c15
+		summarizeBy: average
+		sourceColumn: densidade
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fato_densidade = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaDados & "fato_densidade.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cabecalho = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cabecalho, {{"data", type date}, {"cod_ibge", type text}, {"densidade", type number}}, "pt-BR")
+				in
+				    Tipos
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,20 @@
+relationship 8629b9ee-d0cb-4b70-84ec-4d35f68a4bb6
+	fromColumn: fato_acessos.data
+	toColumn: dCalendario.Date
+
+relationship 86d7739c-7adf-45d5-8c82-de49e782d724
+	fromColumn: fato_densidade.data
+	toColumn: dCalendario.Date
+
+relationship 6ed23f9a-0937-431b-893b-c5b6858aa799
+	fromColumn: fato_acessos.cod_ibge
+	toColumn: dim_municipio.cod_ibge
+
+relationship f1c88798-3dad-4235-a94c-7ff1d69e0e9a
+	fromColumn: fato_densidade.cod_ibge
+	toColumn: dim_municipio.cod_ibge
+
+relationship 62a14375-4bb7-46a4-ac27-4223c351f21a
+	fromColumn: fato_acessos.cnpj
+	toColumn: dim_prestadora.cnpj
+
